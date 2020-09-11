@@ -1,0 +1,281 @@
+<!doctype html>
+<html>
+<head>
+<Background>
+<style>
+html,body,head,background /* Defualt element settings*/
+{
+font-family:times new roman;
+}
+Background
+{
+position:absolute;
+top:0px;
+left:0px;
+width:100%;
+height:100%;
+background-color:#fff;
+background-image:url('http://i.imgur.com/84oZhlc.jpg');
+}
+::-webkit-scrollbar
+{
+    height: 12px;
+width: 12px;
+background: #ffffff;
+    }
+::-webkit-scrollbar-thumb
+{
+    background: #333333;
+    -webkit-border-radius: .8ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner
+{
+    background: #000;
+}
+#main /*Main box, this is the box with the most text and is the only box that is modified by the "onclick" span section*/
+{
+position:absolute;
+width:70%;
+height:80%;
+background-color:#fff;
+-webkit-box-shadow:  5px 3px 4px 7px rgba(0, 0, 0, .6);
+box-shadow:  5px 3px 4px 7px rgba(0, 0, 0, .6);
+padding: 10px 10px 10px 10px;
+top:70px;
+left:250px;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+}
+#title /*Div element of what the page contains- in english, the H1 tag */
+{
+font-family:'La Belle Aurore';
+font-size:22px;
+color:black;
+position:absolute;
+top:40px;
+left:250px;
+letter-spacing:normal;
+text-decoration:underline;
+}
+#title:hover /* Extension */
+{
+letter-spacing:8px;
+-webkit-transition: all 0.5s ease-in-out;
+-moz-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+#sidebar /*Holds div Element "A"*/
+{
+position:relative;
+top:0px;
+left:0px;
+width:100%;
+height:3%;
+background-color:#666;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+text-transform: uppercase;
+}
+#a /* Menu div javascript ap. */
+{
+background-color:#666;
+color: white;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 8px;
+text-align: center;
+float: left;
+width:10%;
+height:auto;
+Padding:3px 3px 3px 3px;
+}
+#a:hover /* extension */
+{
+background-color:#C0c0c0;
+color:#000;
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 8px;
+text-align: center;
+float: left;
+}
+#sideboxone,#sideboxtwo /*These are the boxes to the left, these boxes contain unspecified information.*/
+{
+float:left;
+overflow:auto;
+-webkit-border-radius: 6px;
+border-radius: 6px;
+Left:12px;
+Top:8%;
+width:200px;
+Height:300px;
+background-color:#fff;
+position:absolute;
+border-style:double;
+border-width:1px;
+border-color:#c0c0c0;
+-webkit-box-shadow:  1px 1px 3px 2px rgba(0, 0, 0, .6);
+box-shadow:  1px 1px 3px 2px rgba(0, 0, 0, .6);
+padding: 5px 5px 5px 5px;
+}
+#sideboxtwo
+{
+Top:60%;
+Height:200px;
+}
+#boxhead /* The titles for the sub-boxes*/
+{
+width:100%;
+font-family:'La Belle Aurore';
+color:black;
+font-size:12px;
+text-align:center;
+text-decoration:underline;
+}
+.border
+{
+border-style:solid;
+border-width:1px;
+border-color:#c0c0c0;
+text-align:center;
+color:black;
+padding:2px 2px 2px 2px;
+font-family:Verdana;
+font-size:10px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+}
+#clock /*Java script clock settings. */
+{
+font-family:Verdana;
+font-size:10px;
+color:black;
+text-align:center;
+}
+p
+{
+color:black;
+text-indent:50px;
+font-size:9px;
+}
+</style>
+<script src="http://pastebin.com/raw.php?i=Za4j0P7v"></script>
+<script src="http://pastebin.com/raw.php?i=uPf6DBpG"></script>
+<script language="javascript">document.title=("Ice")</script>
+<link href="http://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet">
+</head>
+<body onLoad="init()">
+<div id="loading" style="position:absolute; width:100%; text-align:center;
+ top:300px;">
+<img src="http://static.tumblr.com/dbek3sy/pX1lrx8xv/ajax-loader.gif" border=0></div>
+<div id="sidebar">
+<center>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('1').innerHTML; "><div id="a">about me</div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('2').innerHTML; "><div id="a">FQA</div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('3').innerHTML; "><div id="a">?</div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('4').innerHTML; "><div id="a">Notes from Friends</div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('5').innerHTML; "><div id="a">Additional info.</div></span>
+</center>
+</div>
+<div id="sideboxone">
+<div id="boxhead">Hai!</div><p><br/>
+Well... Glad you could find your way to my profile at the very least. Here's a few things I'd like to cover up with most of you,<br>A.) Do <u><font color="#FF0000">NOT</font></u> copy my edit and use them for commerical uses, all rights are reserved by me and covered by GNU GPL.<br/>
+B.) I'd be glad to help anyone with their full profile, or any type of coding that consists of some english. And that's that, really cx<br/> Other than those two things, I really can't tell you much more except that this profile is best viewed in Google Chrome. Have fun you guys!<br/><br/>
+P.S You guys! I don't bite... Talk to me! &lt;3</p>
+</div>
+<div id="sideboxtwo">
+<div id="boxhead">News/Updates</div>
+<center>
+<img src="http://hitwebcounter.com/counter/counter.php?page=4885285&style=0006&nbdigits=5&type=page&initCount=0" />
+</center>
+<div class="border">Created: 3/28/13</div><br/>
+<div id="clock"></div><br/><iframe class="btn" frameborder="0" border="0" scrolling="no" allowtransparency="true" height="25" width="127" src="http://platform.tumblr.com/v1/follow_button.html?button_type=1&tumblelog=lyend&color_scheme=light"></iframe>
+</div>
+<div id="title">Ice&#38;Lyend</div>
+<div id="main">
+<div id="info"><p>Welcome! Hai! Yeah... Stalkerrrr.... But since I love my stalkers I'll show you around a bit. My name is Adam, but a lot of my older friends that I've had call me Lynn. Call me what you feel, I don't really mind. Okay, if you look near the top of the page you see that stuff that may say something like "About me," or "FAQ," yeah. You can click on those. They bring you to different parts of my profile. Oh, and one more thing. <font size="3">This profile is best viewed in Google Chrome 1028x724</font></p> 
+</div>
+<div id="1" style="display:none"><p>Okay, about me...<br/><br/>
+-I play guitar<br/>
+-I skateboard, and my best trick as of right now is Nollie 360 Hardflip ;~;<br/>
+-I tend to do a lot of faces depending upon the situation<br/>
+-I'm a grammar nazi, sometimes.<br/>
+-I do drugs, I figure this was an easy one.<br/>
+-I wanna puppy... ;~;<br/>
+-I am Bisexual- I date both males and females.<br/>
+-I made this myself, yes.<br/>
+-My two favorite words, "Rawr," and "Hush,"<br/>
+-I love old Escape the Fate, but not so much with Falling in Reverse<br/>
+-I'm a total music geek. I love music of all kinds<br/>
+-For Overdosing Escape- My band- I sing, Scream, and play guitar.<br/>
+-I'm engaged with Silent Suffering.<br/>
+-I'm very self aware... Lol...<br/>
+-Girls with pink hair absolutely disgust me<br/>
+-I don't believe in labels.<br/>
+-I'M FUN<br/>
+-I also lied^...<br/>
+-My vocal range for screams is almost as high as Oli Sykes cx<br/>
+-I love Asking Alexandria<br/>
+-I love you &lt;3</p>
+</div>
+<div id="2" style="display:none"><p>FQA<br/>
+<font color="#c0c0c0">Do you make all these profiles yourself, and if so, where did you get the resources and knowledge to make them?</font><br/>
+I obtained such knowledge by my trusty friend, Google. Actually, I lied. I get a lot of my ideas from Tumblr, as for the actual code to make this stuff (CSS, Javascript, HTML) this I got from www.w3schools.com.<br/>
+<font color="#c0c0c0">Do you trade accounts?</font><br/>
+I do trade accounts! How'd you know?! I have a list of accounts I could post right here, but I rather not. This account Doom is currently up for Sale/Trade for roughly 65 Dollars.<br/>
+<font color="#c0c0c0">Do you Roleplay?</font><br/>
+I used to Multi-paragraph roleplay but, as of now, it's come down to just simple paragraphs, can't be assed to write so much anymore.<br/>
+<font color="c0c0c0">Are you really 15?</font><br/>
+I know right! It seems like I'm actually 4 years old!<br/></p>
+</div>
+<div id="3" style="display:none"><p>Emily &lt;3</p></div>
+<div id="4" style="display:none"><p>Notes from friends, anything you'd like to say about me.<br/>
+- Jenafer "You're a sexy penis..."<br/>
+- Box "I want your peepee..."<BR/>
+- Sayium "Lyend, you are my brother. Through times of war, hardship, and even the deadliest of sins together, you have always, and will always remain my brother. Especially in those awkward times, as to which I'll be dying there on the floor, and you'll just be fucking that girl you met at the bar."<BR/>
+- Izukachi "You my bro, are over all a fucking badass, I haven't known you for very long but being dead ass your taste in music is pretty epic, lol. Anyways what to say what to say..Well you're pretty chill man, we're like twins, I haven't seen you Rp yet but I'm sure you're pretty good considering that you have that badass feel to you lol, anyways stay cool bro."</p></div>
+<div id="5" style="display:none"><p>Owner of Script-ango.weebly.com<br/><br/>Song list-These are all the songs I especially enjoy playing on my guitar<br/><br/>
+Hold on 'Till May-Pierce the Veil (Acoustic)<br/>
+Foolin'-Def Leppard (Introduction clean/ acoustic)<br/>
+Monster- Skillet (The whole song)<br/>
+Knives and Pens-Black Veil Bribes (The introduction is really fun to play)<br/>
+The webs we weave-Escape the Fate(The whole song)<br/>
+Master of Puppets-Metallica(The whole song, except solo)<br/>
+Nothing else matters-Metallica (Intro and solo)<br/>
+Hot and cold-Katy Perry (Acoustic, whole song)<br/>
+Dark Days-Parkway drive (Mostly the whole song)<br/>
+Pandora-Parkway drive (The Intro)<br/>
+Smoke 'em if you got 'em-Parkway drive (intro)<br/>
+Smoke on the water-Deep purple (Whole song)<br/>
+Maybe holding hands wasn't such a great idea-Modern day escape (Intro)<br/>
+Cross roads-Avengened seven fold? (Chorus and intro)<br/>
+Eighteen and life- Skid row (Whole song)<br/>
+Her scars, My fist, Your mouth-Bullet for my valentine (Intro)<br/>
+Lollipop- Framing hanley (Intro)<br/>
+Ride the Lightning-Metallica (Intro and Chorus)<br/>
+Perfect weapon-Black Veil Bribes (Intro)<br/>
+Have Faith in me-A day to Remember(Intro)<br/>
+Break your little heart-All time low(Chorus Lick)<br/>
+Wanted Dead or Alive-Bon Jovi(Intro Guitar lick)<br/>
+Black and Blue- Bring me the Horizon (Guitar lick)<br/>
+Shadow Moses- Bring me The Horizon (Break down)<br/>
+Chelsea Smile- Bring Me the Horizon (Intro and Chorus)<br/>
+Gimme a D-Parkway Drive (Solo Break Down)<br/>
+King for a Day-Pierce the Veil (Intro)<br/>
+Hey there Delia-The plain white T's (Whole song)<br/>
+115-Elena Siegmen(Intro and Bridge)<br/>
+Beauty Of Annihilation-Elena Siegman(Intro)<br/>
+In my head-Mayday Parade(Whole)<br/>
+The Final Episode-Asking Alexandria(Whole song)<br/>
+Dont mess with Oujia boards-Falling In reverse (Break down)<br/><br/>
+A few of my favorites...
+</p></div>
+</div>
+</body>
+<script language=JavaScript> var message="Function Disabled!"; function clickIE4(){ if (event.button==2){ alert(message); return false; } } function clickNS4(e){ if (document.layers||document.getElementById&&!document.all){ if (e.which==2||e.which==3){ alert(message); return false; } } } if (document.layers){ document.captureEvents(Event.MOUSEDOWN); document.onmousedown=clickNS4; } else if (document.all&&!document.getElementById){ document.onmousedown=clickIE4; } document.oncontextmenu=new Function("alert(message);return false") </script>
+</html>
