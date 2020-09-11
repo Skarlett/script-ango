@@ -13,3 +13,4 @@ https://raw.githubusercontent.com/Skarlett/script-ango/master/css/Death/Death.cs
 There is also probably many duplicate files, as I was not good at version control as a kid (and possibly even now).
 
 Since I'm no longer maintaining these, you might want to learn a tiny bit of css, and html yourself to maintain them personally.
+## Looking for new maintainer
