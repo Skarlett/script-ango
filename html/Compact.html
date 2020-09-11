@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Background />
+	<script language="javascript">document.title=("Doom")</script>
+	<link href="http://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet">
+<!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+<style type="text/css">
+	::-webkit-scrollbar {
+    height: 12px;
+width: 12px;
+background: #ffffff;
+    }
+::-webkit-scrollbar-thumb {
+    background: #333333;
+    -webkit-border-radius: .8ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner {
+    background: #000;
+	}
+		Background
+			{
+				Top:0px;
+				Left:0px;
+				Height:100%;
+				Width:100%;
+				background-color:white;
+			}
+		body,head,html,Background,div,p,class
+			{
+				font-family:verdana;
+				font-size:11px;
+			}
+		#top
+			{
+				position:relative;
+				left:10px;
+				border-style:double;
+				border-width:1px;
+				padding: 10px 10px 10px 10px;
+				height:50px;
+				width:700px;
+				border-color:#000;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				-webkit-box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+        
+        box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+			}
+		#menu
+			{
+				position:fixed;
+				left:10px;
+				top:20%;
+				Height:50%;
+				width:200px;
+				border-style:double;
+				border-width:1px;
+				padding: 10px 10px 10px 10px;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				-webkit-box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+        
+        box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+			}
+		#secondcontent
+			{
+				right:10px;
+				Position:fixed;
+				top:20%;
+				width:200px;
+				height:50%;
+				border-style:double;
+				border-width:1px;
+				padding: 10px 10px 10px 10px;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				-webkit-box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+        
+        box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+			}
+		#content
+			{
+				position:absolute;
+				top:28%;
+				left:25%;
+				width:490px;
+				Height:400px;
+				border-style:double;
+				border-width:1px;
+				padding: 10px 10px 10px 10px;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				-webkit-box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+        
+        box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+			}
+		#contact
+			{
+				Position:fixed;
+				top:80%;
+				left:10px;
+				Width:200px;
+				height:40px;
+				border-style:double;
+				border-width:1px;
+				padding: 10px 10px 10px 10px;
+				overflow:none;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				-webkit-box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+        
+        box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+			}
+		#container
+			{
+				Left:25%;
+				width:450px;
+				top:22%;
+				Position:absolute;
+				height:15px;
+				border-style:double;
+				border-width:1px;
+				padding: 10px 10px 10px 10px;
+				overflow:none;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				-webkit-box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+				box-shadow:  4px 2px 3px 5px rgba(0, 0, 0, 0.3);
+			}
+		#container:hover
+			{
+				-webkit-transition: all 0.5s ease-in-out;
+				-webkit-transition-property: all;
+				-webkit-transition-duration: 0.5s;
+				-webkit-transition-timing-function: ease-in-out;
+				-webkit-transition-delay: initial;
+				-moz-transition: all 0.5s ease-in-out;
+				-o-transition: all 0.5s ease-in-out;
+				-ms-transition: all 0.5s ease-in-out;
+				transition: all 0.5s ease-in-out;
+				Width:490px;
+			}
+		#a
+			{
+				Height:15px;
+				width:120px;
+				position:relative;
+				font-family:times new roman;
+				border-style:double;
+				border-width:1px;
+				padding: 1px 1px 1px 1px;
+				letter-spacing:normal;
+				text-align:center;
+			}
+		#a:hover
+			{
+				letter-spacing:6px;
+				-webkit-transition: all 0.5s ease-in-out;
+				-moz-transition: all 0.5s ease-in-out;
+				-ms-transition: all 0.5s ease-in-out;
+				-o-transition: all 0.5s ease-in-out;
+				transition: all 0.5s ease-in-out;
+			}
+		#spread,#spread2,#spread3
+			{
+				left:1%;
+				position:absolute;
+			}
+		#spread2
+			{
+				Left:35%;
+			}
+		#spread3
+			{
+				Left:70%;
+			}
+		footer#fixed-footer
+			{
+				color: black;
+				border-top: 1px solid #000000;
+				background-color: white;
+				text-align: center;
+				position:fixed;
+				bottom: 0px;
+				left: 0px;
+				width: 100%;
+				height: 20px;
+				font-size:10px;
+				text-align: center;
+				line-height: 2em;
+			}
+		</style>
+	<body>
+<div id="menu"></div>
+<center><div id="top"></div></center>
+<div id="container">
+<div id="spread">
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('1').innerHTML; ">
+<div id="a" ;>About Me</div></span>
+</div><div id="spread2">
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('2').innerHTML; ">
+<div id="a" ;>Friends</div></span></div>
+<div id="spread3">
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('3').innerHTML; ">
+<div id="a" ;>Misc</div></span></div></div>
+
+<div id="secondcontent"></div>
+<div id="content"></div>
+<div id="contact"></div>
+<footer id="fixed-footer">
+        Copyright © Doom and Lyend 2013-- Only works in Chrome
+    </footer>
+</body>
+</html>

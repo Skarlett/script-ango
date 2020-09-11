@@ -1,0 +1,342 @@
+	    <!doctype html>
+    <html>
+    <head>
+            <Background />
+           
+           
+
+           
+            <style>
+    ::-webkit-scrollbar /*Scroll bar, just in case you need it */
+            {
+                    height: 12px;
+                    width: 12px;
+                    background: #ffffff;
+        }
+    ::-webkit-scrollbar-thumb
+            {
+                    background: #333333;
+                    -webkit-border-radius: .8ex;
+                    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+            }
+    ::-webkit-scrollbar-corner
+            {
+                    background: #000;
+            }
+    Background /* Background */
+            {
+                    Top:0px;
+                    Left:0px;
+                    Height:100%;
+                    Width:100%;
+                    background-color:black;
+                    position:absolute;
+                    background-image:url('http://www.hdewallpaper.com/wp-content/uploads/2013/08/black-background_00357966.jpg');
+                    opacity:1.0;
+                    filter:alpha(opacity=100); /* For IE8 and earlier */
+                   
+            }
+    #container /* Center container */
+            {
+                    Height:400px;
+                    Width:400px;
+                    top:40%;
+                    left:30%;
+                    background-color:#c0c0c0;
+                    position:relative;
+                    text-align:center;
+                    -webkit-border-radius: 360px;
+                    border-radius: 360px;
+                    border-left-color:#610000;
+                    border-right-color:#610000;
+                    border-top-color:#D90000;
+                    border-bottom-color:#D90000;
+                    border-style:solid;
+                    border-width:5px;
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+            }
+                   
+    #container:hover
+            {
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+                    border-left-color:#D90000;
+                    border-right-color:#D90000;
+                    border-top-color:#610000;
+                    border-bottom-color:#610000;
+                    border-width:5px;
+                    -webkit-box-shadow: 0 0 12px 6px #ffffff;
+                    box-shadow: 0 0 12px 6px #ffffff;
+            }
+    .center
+            {
+                    width:100%;
+                    text-align:center;
+            }
+    #transparentlayer /* DO NOT DELETE */
+            {
+                    height:800px;
+                    width:1000px;
+                    border: 1px solid transparent;
+                    left:10%;
+                    position:absolute;
+            }
+    #dot,#dot2,#dot3,#dot4,#dot5 /* Multi DIV functions */
+            {
+                    height:50px;
+                    width:50px;
+                    -webkit-border-radius: 360px;
+                    border-radius: 360px;
+                    position:absolute;
+                    Margin:10px 10px 10px 10px;
+                    Padding:2px 2px 2px 2px 2px;
+                    border: 3px outset darkred;
+                    background-color:#c0c0c0;
+                    color:#000;
+                    font-size:9px;
+                    font-family:verdana;
+                    overflow:hidden;
+                    text-align:center;
+            }
+    #dot
+            {
+                    left:21%;
+                    top:30%;
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+            }
+    #dot2
+            {
+                    left:30%;
+                    top:21%;
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+            }
+    #dot3
+            {
+                    top:45%;
+                    left:16%;
+                    -moz-transform: scale(1) rotate(330deg) skewX(0deg);
+                    -webkit-transform: scale(1) rotate(330deg) skewX(0deg);
+                    -o-transform: scale(1) rotate(330deg) skewX(0deg);
+                    -ms-transform: scale(1) rotate(330deg) skewX(0deg);
+                    transform: scale(1) rotate(330deg) skewX(0deg);
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+            }
+    #dot4
+            {
+                    top:62%;
+                    left:14%;
+                    -moz-transform: scale(1) rotate(-50deg) skewX(0deg);
+                    -webkit-transform: scale(1) rotate(-50deg) skewX(0deg);
+                    -o-transform: scale(1) rotate(-50deg) skewX(0deg);
+                    -ms-transform: scale(1) rotate(-50deg) skewX(0deg);
+                    transform: scale(1) rotate(-50deg) skewX(0deg);
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+            }
+    #dot5
+            {
+                    top:80%;
+                    left:19%;
+                    -moz-transform: scale(1) rotate(-70deg) skewX(0deg);
+                    -webkit-transform: scale(1) rotate(-70deg) skewX(0deg);
+                    -o-transform: scale(1) rotate(-70deg) skewX(0deg);
+                    -ms-transform: scale(1) rotate(-70deg) skewX(0deg);
+                    transform: scale(1) rotate(-70deg) skewX(0deg);
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+            }
+    #dot:hover,#dot2:hover,#dot3:hover,#dot4:hover,#dot5:hover
+            {
+                    -webkit-transition: all 0.5s ease-in-out;
+                    -webkit-transition-property: all;
+                    -webkit-transition-duration: 0.5s;
+                    -webkit-transition-timing-function: ease-in-out;
+                    -webkit-transition-delay: initial;
+                    -moz-transition: all 0.5s ease-in-out;
+                    -o-transition: all 0.5s ease-in-out;
+                    -ms-transition: all 0.5s ease-in-out;
+                    transition: all 0.5s ease-in-out;
+                    -webkit-box-shadow: 0 0 4px 2px #ffffff;
+                    box-shadow: 0 0 4px 2px #ffffff;
+            }
+    #textcenter1
+            {
+                    -moz-transform: scale(1) rotate(-60deg) skewX(0deg);
+                    -webkit-transform: scale(1) rotate(-60deg) skewX(0deg);
+                    -o-transform: scale(1) rotate(-60deg) skewX(0deg);
+                    -ms-transform: scale(1) rotate(-60deg) skewX(0deg);
+                    transform: scale(1) rotate(-60deg) skewX(0deg);
+            }
+    #textcenter2
+            {
+                    -moz-transform: scale(1) rotate(50deg) skewX(0deg);
+                    -webkit-transform: scale(1) rotate(50deg) skewX(0deg);
+                    -o-transform: scale(1) rotate(50deg) skewX(0deg);
+                    -ms-transform: scale(1) rotate(50deg) skewX(0deg);
+                    transform: scale(1) rotate(50deg) skewX(0deg);
+            }
+    #textcenter3
+            {
+                    -moz-transform: scale(1) rotate(70deg) skewX(0deg);
+                    -webkit-transform: scale(1) rotate(70deg) skewX(0deg);
+                    -o-transform: scale(1) rotate(70deg) skewX(0deg);
+                    -ms-transform: scale(1) rotate(70deg) skewX(0deg);
+                    transform: scale(1) rotate(70deg) skewX(0deg);
+            }
+    #a /* Javascript function, Don't delete. */
+            {
+                    display: block;
+                    height:auto;
+                    width:auto;
+                    background-color:transparent;
+            }
+    #a:hover
+            {
+                    text-decoration:underline;
+            }
+    #title
+            {
+                    font-family:'La Belle Aurore';
+                    font-size:22px;
+                    text-decoration:underline;
+                    color:darkred;
+                    text-align:center;
+                    position:relative;
+                    text-align: center;
+            }
+    p
+            {
+                    font-family:verdana;
+                    font-size:9px;
+                    overflow:hidden;
+                    color:black;
+                    width:260px;
+                    height:300px;
+                    left:17%;
+                    position:absolute;
+            }
+
+            </style>
+            <link href="http://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet">
+            <script language="javascript">document.title=("~ TheOneAndOnlySavage ~")</script>
+    </head>
+    <body>
+            <div id="transparentlayer">
+           
+           
+                    <div id="container">
+                            <div id="title">Jose</div>
+                   
+
+                    <div id="info"><p>Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</p></div>
+                    <!-- Div 1 is About me -->
+                    <div id="1" style="display:none"><p>1</p></div>
+                    <!-- Div 2 is FAQ -->
+                    <div id="2" style="display:none"><p>2</p></div>
+                    <!-- Div 3 is <3 -->
+                    <div id="3" style="display:none"><p>3</p></div>
+                    <!-- Div 4 is Notes -->
+                    <div id="4" style="display:none"><p>4</p></div>
+                    <!-- Div 5 is Misc. -->
+                    <div id="5" style="display:none"><p>5</p></div>
+                   
+                   
+                   
+                    </div>
+                   
+                   
+                   
+
+                   
+                    <div id="dot"><br/>
+                    <span onclick=
+    "document.getElementById('info').innerHTML=document.getElementById('2').innerHTML; "><div id="a">FAQ</div></span>
+                   
+                    </div>
+                   
+                    <div id="dot2"><br/>
+                    <span onclick=
+    "document.getElementById('info').innerHTML=document.getElementById('1').innerHTML; "><div id="a">About me</div></span>
+                    </div>
+                   
+                    <div id="dot3"><br/>
+                    <span onclick=
+    "document.getElementById('info').innerHTML=document.getElementById('3').innerHTML; "><div id="a"><div id="textcenter1">&lt;3</div></div></span>
+                    </div>
+                   
+                    <div id="dot4"><br/>
+                    <span onclick=
+    "document.getElementById('info').innerHTML=document.getElementById('4').innerHTML; "><div id="a"><div id="textcenter2">Notes</div></div></span>
+                    </div>
+                   
+                    <div id="dot5"><br/>
+                    <span onclick=
+    "document.getElementById('info').innerHTML=document.getElementById('5').innerHTML; "><div id="a"><div id="textcenter3">Misc.</div></div></span>
+                   
+                    </div>
+    </div>
+    </body>
+     
+
+    <Style> .logo_div, .fpix_header, .topad, .fpix_asl_table, .profile_text,
+    .nc_profile, #left_container, #profilephoto, #flash_close_butt,
+    #start_chat_but, .uppermenu, #buyers_ad, #flashcontent, .yellow_but,
+    .bottombar, .byline, .top-links { visibility: hidden  !important; display: none  !important;}
+    </style>
+     
+     
+     
+    </html>

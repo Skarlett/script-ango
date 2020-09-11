@@ -1,0 +1,235 @@
+<html>
+<title>Lyend Vi Victorian</title>
+<style>
+Bold
+{
+text-transform: uppercase;
+font-size: 18px;
+color: #999
+font-family: 'century gothic bold';
+border-bottom: 2px dashed #999;
+border-bottom-width: 1px;
+border-bottom-style: dashed;
+border-bottom-color: #999;
+line-spacing: 0px;
+}
+Blockquote
+{
+Font-family: 'Impact';
+text-transform: uppercase;
+font-size: 18px;
+}
+#a {
+display: block;
+width: 35px;
+float: left;
+height: 15px;
+font-family: calibri;
+opacity: 1;
+color: transparent;
+font-size: 8px;
+text-transform: lowercase;
+text-align: center;
+border-bottom: 0px solid#B7DFC8;
+border-bottom-width: 0px;
+border-bottom-style: solid;
+border-bottom-color: #B7DFC8;
+padding-top: 5px;
+padding-bottom: 5px;
+background: #040410; /* Old browsers */
+background: -moz-linear-gradient(left,  #040410 2%, #712a90 28%, #d355b7 50%, #040410 80%, #070b03 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(2%,#040410), color-stop(28%,#712a90), color-stop(50%,#d355b7), color-stop(80%,#040410), color-stop(100%,#070b03)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* IE10+ */
+background: linear-gradient(to right,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040410', endColorstr='#070b03',GradientType=1 ); /* IE6-9 */
+resize: horizontal;
+overflow: auto;
+min-width: 250px; /*suggest a mid-width & min-height*/
+min-height 250px;
+}
+#a:hover {
+display: block;
+width: 35px;
+float: left;
+height: 20px;
+font-family: calibri;
+opacity: 1;
+color: transparent;
+font-size: 8px;
+text-transform: lowercase;
+text-align: center;
+border-bottom: 0px solid#B7DFC8;
+border-bottom-width: 0px;
+border-bottom-style: solid;
+border-bottom-color: #B7DFC8;
+padding-top: 5px;
+padding-bottom: 5px;
+background: #040410; /* Old browsers */
+background: -moz-linear-gradient(left,  #040410 2%, #712a90 28%, #d355b7 50%, #040410 80%, #070b03 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(2%,#040410), color-stop(28%,#712a90), color-stop(50%,#d355b7), color-stop(80%,#040410), color-stop(100%,#070b03)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* IE10+ */
+background: linear-gradient(to right,  #040410 2%,#712a90 28%,#d355b7 50%,#040410 80%,#070b03 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#040410', endColorstr='#070b03',GradientType=1 ); /* IE6-9 */
+resize: horizontal;
+overflow: auto;
+min-width: 250px; /*suggest a mid-width & min-height*/
+min-height 250px;
+-webkit-transition: all 0.5s ease-in-out;
+-webkit-transition-property: all;
+-webkit-transition-duration: 0.5s;
+-webkit-transition-timing-function: ease-in-out;
+-webkit-transition-delay: initial;
+-moz-transition: all 0.5s ease-in-out;
+-o-transition: all 0.5s ease-in-out;
+-ms-transition: all 0.5s ease-in-out;
+transition: all 0.5s ease-in-out;
+}
+.image2
+{
+position:absolute;
+left:200px;
+top:50px;
+z-index:+10;
+}
+.profiles
+{
+z-index:+20;
+}
+img
+{
+position:absolute;
+left:250px;
+top:210px;
+z-index:+9;
+}
+p.Vanrod
+{
+text-align:justify;
+position:absolute;
+left:100px;
+top:190px;
+text-indent:50px;
+}
+Adam
+{
+font-size: 30px;
+color: #B7DFC8;
+text-transform: uppercase;
+font-family: 'century gothic bold';
+}
+p.AttacksAndDefense
+{
+position:absolute;
+left:100px;
+top:310px;
+z-index:+11;
+}
+p.Attacks
+{
+font-color:#ffffff;
+position:absolute;
+left:0px;
+top:350px;
+}
+p.Defense
+{
+font-color:#ffffff;
+position:absolute;
+left:600px;
+top:350px;
+}
+p.Bio
+{
+text-align:justify;
+position:absolute;
+left:100px;
+top:220px;
+text-indent:50px;
+}
+</style>
+<div id="layer1" style="position:absolute; top:0px; left:0px; width:100%; height:100%; background-color: #000000; ">
+<div id="sidebar">
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('1').innerHTML; "><div id="a" style="background-color:#626262" ;><font color="#ffffff">Reference</font></div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('2').innerHTML; "><div id="a" style="background-color:#626262" ;><font color="#ffffff">Weapons</font></div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('3').innerHTML; "><div id="a" style="background-color:#626262" ;><font color="#ffffff">Bio</font></div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('4').innerHTML; "><div id="a" style="background-color:#626262" ;><font color="#ffffff">Family w/ Rules</font></div></span></div>
+
+<div id="1" style="display:none"><font face="arial"><font color="#585858"><font color="#F5F5F5">. </font><font color="#373737"><Bold><font color="#C0C0C0">About Lyend</font></bold><br><br>
+<font face="Arial" size="1" color="#C66666">-Quick Notes About <b>Lyend</b><br>
+-Firstly, This is a Character Sheet<br>
+-Secondly this is the quick Reference Guide.<br>
+-<b>Lyend</b> is a Shadow User.<br>
+-<b>Lyend</b> has a number of "Shadow puppets" some stronger than himself.<br>
+-<b>Lyend</b> contains many of these Puppets within His mind and is able to summon them whenever he wishes.<br>
+-Each of these puppets contain different powers but only one contains the Same Power of <b>Lyend</b><br>
+-<b>Divinarex</b> Would be the one that Controls Lyends mind, but she can't summon herself without him.<br>
+-<b>Divinarex</b> Is the only one at contains Shadow Powers much Like <b>Lyend</b><br>
+-Any of the puppets maybe remade due to the material that they're made up of.<br>
+-<b>Lyend</b> is about 16 Years of Age<br>
+-<b>Lyend</b> Rarely fights without his puppets<br>
+-<b>Lyend</b> Can be taken over by any of the Puppets if he chooses to be.<br>
+-<b>Lyend</b> is a Cyther.<br>
+-<b>Lyend</b> Does not feel affection- ladies, Derps.<br>
+-<b>Lyend</b> is a Vi Victorian<br>
+-Uhm... What else to put here...</div>
+<div id="2" style="display:none"><img class="image2" src="http://i1207.photobucket.com/albums/bb479/DawningShadow/Vanrod.jpg" width="645" height="120" /><font color="#ffffff"><br><Bold>V'anrod</bold><br><br>
+<p class="Vanrod"><font face="arial" size="1">V'anrod (Vhey-an-rode) , The blade used by Lyend, Vi Victorian. The blade Gathers it name by the first who made it, V'si (Vhey-sigh), a master who died earily on in making blades. V'anrod was his blade of perfence in all of his battles, but in a battle with him and a Demon named Worm, he had been severely injured. Slowly dying, he had given the sword off to a corrupt soldier who only desired power, using the blade as a way to gain power. Longer on this soldier became the leader of his cult known as "Cyther" (Si-ther), and all who were in the group were given a small portion of the blade's power. Lyend being part of this cult, he slowly advanced in the ranks of the 9 users. The sword was enchanted with the powers of Shadow and hate, and the Demon who's soul was invested in the Blade was known as Divinarex. She had found a strange hate in Lyend and soon terrorized him all the way until he had assassinated the leader, Cyther. Claiming the blade as his own, she had taken over his soul with her own, he had killed off all the Cythers using the blades power reclaiming the power that had perviously belonged to the blade. Lyend had blacked out fro many years allowing Divinarex complete power. One day he decided to rebel within his own self conscience. Winning the fight between the two, he added a chain to the blade in which he synced Divinarex's soul in. This gave him the choice to choose how much power he wanted from the blade but the trade off of how much power he gave her to his body.</p>
+</font><p class="AttacksAndDefense"><adam>Attacks And Defensive Ablities</adam><br><br><font face="Arial" size="1">
+<p class="Attacks"><font face="Impact">Offensive</font><br>-Shadow Bash-<br>The Impressment of impact of a Shadow Turning Solid and Attempting To Hit an Object<br>
+-Strike-<br>In which the blade Disforms and reforms in a single Strike striking farther than normal<br>
+-Puppet-<br>The Reanimation of Lyend Summoning one of his puppets<br>
+-Poppet-<br>A triggered explosion from a Shadow<br>
+-Acid-<br>Construction of Turning a Liquid into a Shadow//This can be a reverse process//<br>
+-Demise-<br>Soliding Shadows in a Prison like form<br>
+-Streams-<br>The outflow of Dark engery from a Shadow object
+
+<p class="Defense"><font face="Impact">Defensive</font><br>=Shield=<br>When Particules in the Shadow turn Solid to form a Protective shield from all Angles<br>
+=Sub=<br>A quick Puppet that has no purpose but maybe used as a sub target.<br>
+=Smoked=<br>Shadows turn into a gas or smoke Screen<br>
+=Reanimation=<br>Reconstruction of a Shadow made Object or Person<br>
+=Reformation=<br>Gathering of Shadow Particules in Strong/Weak Arrays of Light<br>
+=Afterlife=<br>A Hellish form of Seeing things much slower rate (Ex Frames Per Second)
+</p></p></p></font></div>
+<div id="3" style="display:none">
+<img class="image2" src="http://i1207.photobucket.com/albums/bb479/DawningShadow/Lyend11.jpg" width="645" height="120" /><p class="Vanrod"><font face="arial" size="1" color="#ffffff">"My heart is filled with Hate" Divinarex said in the mist of Fire and flame, Lyend's mind vision reanimating from black to white, before flashing back to normal. Blood Drizzling down his cheek, he held a hand to his hand as he tried to crawl to his knees. Falling back down his eyes trailed up at her. She looked dwon upon him as she withdrew V'anrod slicing it into the ground next to him.</P><p class="bio">
+His eyes awoke from his dreams as he went back to thinking about how it all started. Lyend had started out as a normal boy before everything. His original name wasn't Lyend, it was Lynn. There had been a traggic accident with a killer loose in his school, the killer was armed with a gun. The killer had came into the froom where Lyend was hidden in, Lyend attempted to save another's life by jumping on the back of the killer strangling him into a choke hold. In the hussle, the killer had shot his own knee. Lyend had stolen the gun, and he had murdered the killer. Soon people began afraid of him, and he didn't want anyone to know, so he murdered the rest of them. It was him, his girlfriend and his best friend left. Divinarex appeared towards him whispering in his ears about all the times she had betrayed him for others and how she had lied to him. Only he could hear her though as he screamed at them both. Lyend Falling apart mentally turned around to see the swat team entering the room, turning back to them, he shot her and turned to shoot the officer. Divinarex tempting him more to kill his friend, he turned to him and pulled the trigger. But no shot was extingished. She had promised his survival if he killed him. He had strangled him to death, and as she kept her promise. He made it out alive. Cyther had found him and ranked him as number 10 in his ranks hiding him and Shealtering him. Lyend found the same hatred in his heart again for Cyther later on in the next few years and murdered him with great struggle and the rest of the members.</p></div>
+<div id="4" style="display:none"><adam>Rules</adam><br>//General Standards\\
+1. No Godmoding, MetaGaming, Bunnying, Autokilling, Teleportation, Autohits, No Controlling anothers Character<br>
+2. Retain Respect during Game.<br>
+3. Anything Not Stated in the Post, Does not Exist.<br>
+4. All contestants must agree to the Rules.<br>
+5. No OP [Gravity control, Lazers from Space, Void Control, Unbreakable Weapons, Nothing that can hit at unlimited Distance, Just stay within your Character's standards.]<br>
+6. Universal Turn Based Roleplay<br><br>
+[:::]//Game Rules\\[:::]<br>
+1. Two actions per Turn, Actions that are Evasive/Defending are not counted as 'Actions'<br>
+2. Weapon Limit: 4 Per Character<br>
+3. 2 NPC's At most, anymore than that can be autokilled. NPCs are only counted if One; They take part in an action, or are used as a defensive action. All Rules count towards NPCs aswell.<br>
+4. Post time is 7 days to responde to the Turn.<br>
+5. One may not Intercept post that is placed in Past Tense (0 Tolerance)<br>
+6. Questions 3rd person wise maybe asked and Character Sheets (Done or Not) are to be offered if asked for.<br>
+7. Retreat or withdrawing the Battle is considered Forfeit. Temporary Withdrawal is not counted in this Rule.<br>
+8. Every action taken must obey the basic principles of Thermodynamics (An example of this is a different planet where Thermodynamics don't apply does not counts as a invaild location)<br>
+9. This is Fanatasy Roleplay, Meaning: Magic, Inhumane Races, Etc. Are allowed.<br>
+10. Between Competing Teams/Players Must decide Who posts first and Whom ever posts first may decide the Battle Feild.<br><br>
+    
+..::..Judging Rules..::..
+The Judge may not be Biased towards any party of the Players/Teams, and the Judge HAS to be picked between both Parties. No Judging can take place unless Both parties are there. By whom Ever the Judge is they must agree that they shall not act Biased towards any Party and to publically announce anyone who is trying to Bribe them.<br><br>
+
+| | | If You Wish To Add Any Rules, Speak Now, If Not, say I Agree to the Rules. | | |</font><br><center>Family</center>
+<marquee bgcolor="#000000" loop="-1" scrollamount="2" width="100%"><font face="Arial" size="1" color="#ffffff">Astah--Armoniae--Steamly--Nayrua--Nolan</marquee></div>
+
+<p align="center"><br><div id="info"><p align="center"><center></font><br><font face="arial" size="1" color="#C0c0c0">Please use the navigation to the left to guide through. You have to click the <font color="#ffffff">TEXT.</font> Thank you. &lt;3<br><blockquote>Best viewed in Google Chrome</blockquote><br><br><font color="#ffffff">Lyend Character Sheet</font></font>
+<img src="http://i1207.photobucket.com/albums/bb479/DawningShadow/Anime.jpg" width="550" height="450" /></div></p></center>
+
+<Style> .logo_div { visibility: hidden; } .fpix_header { visibility: hidden; } .topad { visibility: hidden; } .fpix_asl_table { visibility: hidden; } .profile_text { visibility: hidden; } .nc_profile { visibility: visible; } #left_container { visibility: hidden } #profilephoto { visibility: hidden; } #flash_close_butt { visibility: hidden; } #start_chat_but { visibility: hidden; } #fpix_wrapper { visibility: visible; } body { } </style> <style> span {display:text !important;] </style>
+<style>
+#left_container, #profilephoto, #flash_close_butt, .fpix_asl_table, .topad, .fpix_header, .logo_div, #start_chat_but {
+ display: none; }</style>

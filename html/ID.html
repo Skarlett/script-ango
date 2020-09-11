@@ -1,74 +1,144 @@
 <!doctype html>
-<html lang="en-us">
-<!--
-Title: ID Chatango
-contributors: Lyend
-Size: 5kb
-size.css: 3kb
-pixel-size: 350x200
-Description: Excuse my spelling, but this is a simply, modifiable 350px by 200px for your chatango account.
-
-Mods: #body (position and background)
-      #picture (picture)
-      #textrea (font,size,color)
-    See end on how to mod
-
-External: dropbox, script-ango, adfly, 
--->
-    
+<html>
 <head>
-    <!-- Title page. Hey don't miss this over here! Put your name there!-->
-    
-    <script language="javascript">document.title=("Your name")</script>
-    <link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/3uii5ii0oxzaiai/ID.css">
-    
+	<link href="http://fonts.googleapis.com/css?family=La+Belle+Aurore" rel="stylesheet">
+	<style>
+#background
+	{
+		width:300px;
+		height:150px;
+		border: 1px solid black;
+		background-color:white;
+		color:black;
+		padding:5px 5px 5px 5px;
+		float:left;
+		margin:5px 5px 5px 5px;
+		position:relative;
+		overflow:hidden;
+		background-image:url('http://us.cdn3.123rf.com/168nwm/elen/elen0703/elen070300028/809713-abstraction-white-and-blue-background-for-design-artwork.jpg');
+		background-repeat:no-repeat;
+		-webkit-box-shadow: 6px 8px 20px 4px #000000;
+		box-shadow: 6px 8px 20px 4px #000000;
+	}
+#picture
+	{
+		width:50px;
+		height:50px;
+		border: 1px solid black;
+		left:0%;
+		top:0%;
+		margin:5px 5px 5px 5px;
+		overflow:hidden;
+		
+	}
+#menu
+	{
+		width:300px;
+		height:15px;
+		border:1px solid black;
+		color:black;
+		overflow:none;
+	}
+#quickinfo
+	{
+		Width:120px;
+		height:48px;
+		border:1px solid black;
+		position:absolute;
+		left:55%;
+		margin:5px 5px 5px 5px;
+		top:1%;
+		font-size:12px;
+		
+	}
+.Age,.Name,.Gender
+	{
+		top:0%;
+		left:0%;
+		border-bottom: 1px solid black;
+		height:auto;
+		overflow:hidden;
+	}
+#text
+	{
+		Width:290px;
+		height:65px;
+		overflow:auto;
+		border: 1px solid black;
+		Margin:5px 5px 5px 5px;
+		font-family:verdana;
+		font-size:9px;
+		text-indent:10px;
+	}
+#a
+	{
+		font-size: 10px;
+		text-align: center;
+		float: left;
+		width:30%;
+		height:9px;
+		Padding:3px 3px 3px 3px;
+	}
+#a:hover
+	{
+		background-color:#333;
+		color:white;
+	}
+label1
+	{
+		font-family:'La Belle Aurore';
+		font-size:12px;
+		position:absolute;
+		text-decoration:underline;
+		left:25%;
+		top:10%;
+	}
+	</style>
+
 </head>
 <body>
-    <div id="body">
-        <div id="photo"></div>
-        
-        <table id="infor">
-            <tr>
-                <th class="age">Your Age</th>
-            </tr>
-            <tr>
-                <th class="location">Your Location</th>
-            </tr>
-            <tr>
-                <th class="username">Your Username</th>
-            </tr>   
-        </table>
-        
-        <div id="textarea">Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text.</div>
-        
-        
-        <!-- Don't Delete, copyright fraud -->
-        <a href="http://adf.ly/7434152/script-ango" target="_blank">
-            <div id="issue"></div>
-        </a>
-        <!-- Delete release -->
-        
-    </div>
-    
-    
-    <!-- Want to customize your card? Here's how.  Everything is currently at defualt, it's okay if you delete this, it won't kill it. -->
-<style>
-#body {
-    Position:relative; /* Change this to position:absolute; if you wish to move the card around */
-    top:5px; /*Use these dials to move the card - modify the numbers - Note: It will not move if you keep position:relative; */
-    left:10px;
-    background-image:url("http://wallfoy.com/wp-content/uploads/2013/12/Cool-White-Background-91.jpg"); /*Change the link if you want a different background. Careful not to delete the quotes.*/
-}
-#photo {
-    background-image:url("http://fp.chatango.com/profileimg/l/y/lyend/thumb.jpg"); /* Simply change the url, if you wish to make the image your chatango thumb image simply modify the following.
-    ...profileimg/l/y/lyend/... Change to the first two letters of your username// example .../profileimg/l/y/... Then followed by your full username profileimg/l/y/lyend.
-        Other data I should meantion is that the image should be 50x50*/
-}
-#textarea {
-    color:black; /* Modify by hex or typing out the name. example... color:black; color:#000000; */
-    font-size:9px; /*Modify text size*/
-    font-family:"Varanda"; /*Modify Font-face/font-family*/
-} 
-</style>
+
+	<!-- Beginning -->
+	<div id="background">
+	<label1>Alerion Issued <br/><font face="Times New Roman"><center>2014</center></font></label1>
+		
+		<!-- Picture // Will focus on the farthest right hand corner, Picture is 50x50. IF YOU DON'T WANT A PICTURE... Change under style="visibility:visible;" to style="visibility:hidden;" -->
+		<div id="picture"><!-- style="visibility:visible;> -->
+		<img src="http://i.imgur.com/jsf6jxj.jpg" />
+		</div>
+		<!-- Change the src="http://...." to the new image as you like. link must end with ".jpg",".png",".gif" -->
+		
+		<div id="menu"> <!-- Don't fuck with this, you'll mess it up. -->
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('1').innerHTML; "><div id="a">About Me</div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('2').innerHTML; "><div id="a">FAQ</div></span>
+<span onclick=
+"document.getElementById('info').innerHTML=document.getElementById('3').innerHTML; "><div id="a">Alerion</div></span>
+		</div>
+		
+		<!-- Quick information section. Name, Age, Gender -->
+		
+		<div id="quickinfo">
+			<div class="Name"><b>Name:</b> Adam</div>
+			<div class="Age"><b>Age:</b> 18</div>
+			<Div class="Gender"><B>Gender:</b> Male</div>		
+		</div>
+		
+		<!-- Introduction text -->
+		<div id="text"><div id="info">Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text</div>
+		<!-- About me Section -->
+		<div id="1" style="display:none">Text2 Text2 Text2 Text2 Text2 Text2 Text2 Text2 </div>
+		<!-- FAQ Section -->
+		<div id="2" style="display:none"> Text3 Text3 Text3 Text3 Text3 Text3 Text3</div
+		<!-- Alerion Text Section -->
+		<div id="3" style="display:none">Text4 Text4 Text4 Text4 Text4 Text4 Text4 Text4 </div>
+		
+		</div>
+		
+		
+	</div>
+
+
 </body>
 </html>
