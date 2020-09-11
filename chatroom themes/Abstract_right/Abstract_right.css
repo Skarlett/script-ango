@@ -1,0 +1,62 @@
+/*-*************************************************************
+# File: Abstract_right
+# Title: Chatango Theme Abstract_right
+# Author: Lyend/Doom <Lyend.chatango@gmail.com>
+# Version: 1.22
+# Description:
+#  This is a basic theme for Chatrooms modified for the fact 
+#  That Alec has the most boring shit ever. This just changes
+#  The top mode of the chatango room this is strictly meant for
+#  The following browsers Firefox/Google Chrome/Opera/Sarifa/ (Ads show up in IE)
+**************************************************************-*/
+/*-**************************************************************
+# License
+****************************************************************
+# Copyright 2012-2014 Lyend
+# This program is distributed under the terms of the GNU GPL.
+**************************************************************-*/
+   body
+{
+ background-color: #000;
+ background-image:url('http://i.imgur.com/c0YIX.png');
+ background-repeat: no-repeat;
+ background-position: right top;
+ color: #FFF;
+}
+   h1
+{
+ font: italic 20px serif;
+ margin: 10px;
+}
+   .group_desc
+{
+ text-align: left;
+ text-shadow: #5992A3 20px -12px 2px;
+}
+/* Hide all this annoying shit... */
+.group_title {visibility: hidden;}
+.logo_cell {height: 0px; display: none;}
+.bottombar {display: none;}
+/* Hide those fucking ads no one likes. (Not in IE)*/
+tr:first-child + * { display: none; }
+tr:first-child { display: none; }
+ins {height: 0px !important; display: none !important;}
+/* We'll keep the flash player so people can do what they want with it. */
+#flash {display: inline !important; background-color: #F00;}
+/*
+#-------------------------------------------------#
+#The stuff you put into chatango description below#
+#-------------------------------------------------#
+<link rel="stylesheet" type="text/css" href="http://pastebin.com/raw.php?i=C3yp4bQB" /><h1>Lyend's CSS</h1>*/
+ 
+/*
+             +---------------+
+             /  Abstract     /
+             /    Finished   /
+             /  V1  9/25/12<3/
+             +---------------+
+-----------------------
+V 1.22 Complete 10/6/12
+-----------------------
+-After Alec's update on the IE ads, I removed the coding for those so that the chatrooms didn't appear blank.
+*****************************************************/

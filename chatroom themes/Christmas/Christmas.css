@@ -1,0 +1,60 @@
+/*#################################################################################
+# File: Christmas-----------------------------------------------------------------#
+# Title: Chatango Christmas...----------------------------------------------------#
+# Publisher: Lyend <Lyend.chatango@gmail.com>-------------------------------------#
+# Version: 1.0--------------------------------------------------------------------#
+# Description:--------------------------------------------------------------------#
+#  Christmas!---------------------------------------------------------------------#
+###################################################################################
+# Copyright 2012-2014 Lyend-------------------------------------------------------#
+# This program is distributed under the terms of the GNU GPL.---------------------#
+#################################################################################*/
+   body
+{
+ background-color: #000;
+ background-image:url('http://ephemeraldreamer.files.wordpress.com/2011/10/88725.jpg');
+ background-repeat: no-repeat;
+ background-position: right top;
+ color: #FFF;
+}
+   h1
+{
+ font: italic 20px serif;
+ margin: 10px;
+ border-bottom: 2px dashed #999;
+ border-bottom-width: 1px;
+ border-bottom-style: dashed;
+ border-bottom-color: #999;
+ line-spacing: 0px;
+}
+   .group_desc
+{
+ text-align: left;
+ text-shadow: #5992A3 20px -12px 2px;
+}
+.group_title {visibility: hidden;}
+.logo_cell {height: 0px; display: none;}
+.bottombar {display: none;}
+/* Hide those fucking ads no one likes. (Not in IE)*/
+tr:first-child + * { display: none; }
+tr:first-child { display: none; }
+ins {height: 0px !important; display: none !important;}
+/* We'll keep the flash player so people can do what they want with it. */
+#flash {display: inline !important; background-color: #F00;}
+h1:hover
+{
+letter-spacing:25px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+#CR {
+font-size:8px;
+color:#fff;
+font-family:Arial;
+Position:fixed;
+top:5px;
+left:600px;
+}
