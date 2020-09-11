@@ -1,0 +1,98 @@
+	::-webkit-scrollbar
+		{
+			height: 12px;
+			width: 12px;
+			background: #c0c0c0;
+		}
+	::-webkit-scrollbar-thumb
+		{
+			background: #333333;
+			-webkit-border-radius: .8ex;
+			-webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+		}
+	::-webkit-scrollbar-corner
+		{
+			background: #000;
+		}
+		
+					body,html,background,head
+		{
+			font-family:verdana;
+		}
+	Background
+		{
+			position:absolute;
+			top:0px;
+			left:0px;
+			width:100%;
+			height:150%;
+			background-color:#000;
+			background-image:url('http://images2.layoutsparks.com/1/245047/skull-bling-heart-bones.png');
+			background-repeat:repeat-x repeat-y;
+		}
+	#top_container
+		{
+			position:relative;
+			top:0px;
+			left:0px;
+			Width:40%;
+			Hieght: auto;
+			padding: 5px; 5px; 5px; 5px;
+			background-color:#000;
+			opacity:0.8;
+			filter:alpha(opacity=80);
+			border-style:inset;
+			border-color:hotpink;
+			border-size:1px;
+		}
+	#container_text
+		{
+			font-family: 'La Belle Aurore';
+			font-size: 15px;
+			color: white;
+			opacity:1;
+			filter:alpha(opacity=100);
+		}
+	#main_container /*Main container- Do not edit this... Unless you know what you're doing*/
+		{
+			Border-style:outset;
+			border-color:hotpink;
+			border-size:1px;
+			Position:Absolute;
+			height:80%;
+			top:15%;
+			Width:40%;
+			left:29%;
+			background-color:#000;
+			font-family:'Times new roman';
+			font-size:11px;
+			color:#fff;
+			padding: 5px 5px 5px 5px;
+			overflow:auto;
+		}
+	#main_container_title,h1,h2,h3,h4
+		{
+			Font-family:'La Belle Aurore';
+			font-size:32px;
+			color:white;
+			text-decoration:underline;
+		}
+	#dundun
+		{
+			color: black;
+			border-top: 1px solid #000000;
+			background-color: white;
+			text-align: center;
+			position:fixed;
+			bottom: 0px;
+			left: 0px;
+			width: 100%;
+			height: 20px;
+			font-size:10px;
+			text-align: center;
+			line-height: 2em;
+		}
+	#dundun:after
+		{
+			content:"Made By Lyend";
+		}

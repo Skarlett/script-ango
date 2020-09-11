@@ -1,0 +1,27 @@
+#script {
+    width: 0;
+    height: 0;
+    border-top:100px solid #c0c0c0;
+    border-right: 100px solid transparent;
+    position:absolute;
+    top:0 ;
+    left:0 ;
+    margin-top: -1px;
+    padding:1px 1px 1px 1px;
+    opacity: 0.7; 
+    z-index: 500+;
+} 
+#inside,#inside:after {
+    top:-75px;
+    left:0;
+    position:absolute;
+    -moz-transform: rotate(-42deg);
+    -webkit-transform: rotate(-42deg);
+    -o-transform: rotate(-42deg);
+    -ms-transform: rotate(-42deg);
+    transform: rotate(-42deg);
+    color:black;
+    z-index: +501;
+}
+#inside:after,#inside:before { content:"Script-ango"; }
+#inside:hover { text-decoration: underline; color:blue; }

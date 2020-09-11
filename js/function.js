@@ -1,0 +1,15 @@
+document.write("<a href=\"http:\/\/adf.ly\/7434152\/script-ango\">");
+document.write("<div id=\"script\">Script-ango<\/div>");
+document.write("<\/a>");
+document.getElementById('script').style.color = 'transparent';
+document.getElementById('script').style.width = '200px';
+document.getElementById('script').style.height = '50px';
+document.getElementById('script').style.textAlign = 'center';
+document.getElementById('script').style.margin = '5px 5px 5px 5px';
+document.getElementById('script').style.lineHeight = '40px';
+document.getElementById('script').style.backgroundImage = 'url(http://i.imgur.com/gJ7a5IX.png)';
+document.getElementById('script').style.backgroundRepeat = 'no-repeat';
+document.getElementById('script').style.backgroundPosition = 'center bottom';
+document.getElementById('script').style.position = 'absolute';
+document.getElementById('script').style.bottom = '5px';
+document.getElementById('script').style.right = '5px';

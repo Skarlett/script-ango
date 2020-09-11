@@ -1,0 +1,149 @@
+Background
+	{
+		position:	absolute;
+		top:		0px;
+		left:		0px;
+		width:		100%;
+		height:		100%;
+		background-color:#fff;
+		background-image:url('http://i.imgur.com/bKif8mA.jpg');
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position: top center;
+	}
+#container,#container2
+	{
+		width:					350px;
+		height:					350px;
+		border:					1px solid transparent;
+		margin-left:			5%;
+		margin-top:				5%;
+		-webkit-border-radius: 	190px;
+		-moz-border-radius: 	190px;
+		border-radius: 			190px;
+		background-color:		#fff;
+		overflow:				hidden;
+		-webkit-box-shadow: 	0px 0px 30px 0px rgba(255, 255, 255, 0.85);
+		-moz-box-shadow:   		0px 0px 30px 0px rgba(255, 255, 255, 0.85);
+		box-shadow:        	 	0px 0px 30px 0px rgba(255, 255, 255, 0.85);
+		overflow:hidden;
+		text-algin:center;
+	}
+p.title,p.title:hover,p.title2,p.title:hover
+	{
+		font-family: 'Seaweed Script', cursive;
+		font-size:22px;
+		border-bottom: 2px dashed #000;
+		color:black;
+		text-align:center;
+		width:30%;
+		text-indent:0px;
+		page-break-after:always;
+		-webkit-transition: all 0.5s ease-in-out;
+		-webkit-transition-property: all;
+		-webkit-transition-duration: 0.5s;
+		-webkit-transition-timing-function: ease-in-out;
+		-webkit-transition-delay: initial;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+
+	}
+p.title:hover
+	{
+		color:skyblue;
+	}
+p,#a,#body
+	{
+		font-family:'Verdana';
+		font-size:10px;
+		color:black;
+		text-indent:20px;
+		margin:7% 7% 7% 7%;
+	}
+p.title2
+	{
+		border-bottom-color:transparent;
+	}
+p.title2:hover
+	{
+		color:skyblue;
+	}
+#bridge
+	{
+		width:10px;
+		height:30%;
+		border: 1px solid transparent;
+		margin-left:18%;
+		margin-top:-1%;
+		background-color:#fff;
+		-webkit-box-shadow: 0px 0px 30px 0px rgba(255, 255, 255, 0.85);
+		-moz-box-shadow:    0px 0px 30px 0px rgba(255, 255, 255, 0.85);
+		box-shadow:         0px 0px 30px 0px rgba(255, 255, 255, 0.85);
+	}
+#container2
+	{
+		margin-top:-5%;
+		margin-left:112px;
+		width:250px;
+		height:250px;		
+	}
+#menu
+	{
+		text-align:center;
+		width:100%;
+		margin-top:15%;
+		Margin-left:25%;
+
+	}
+#menu:after
+	{
+		content:"Made by Lyend";
+		font-size:10px;
+		margin-left:-130px;
+		margin-top:0px;
+	}
+#a,#a:hover
+	{
+		margin:4% 0% 0% 4%;
+		text-indent:-10px;
+		color:black;
+		border-right:4px solid transparent;
+		border-left:4px solid transparent;
+		-webkit-transition: all 0.5s ease-in-out;
+		-webkit-transition-property: all;
+		-webkit-transition-duration: 0.5s;
+		-webkit-transition-timing-function: ease-in-out;
+		-webkit-transition-delay: initial;
+		-moz-transition: all 0.5s ease-in-out;
+		-o-transition: all 0.5s ease-in-out;
+		-ms-transition: all 0.5s ease-in-out;
+		transition: all 0.5s ease-in-out;
+		width:40%;
+	
+	}
+#a:hover
+	{
+		border-right-color:black;
+		border-left-color:black;
+		color:#c0c0c0;
+	}
+#body
+	{
+		border:	1px solid transparent;
+		width:	500px;
+		height:	500px;
+		position:absolute;
+		left:30%;
+		top:20%;
+		
+	}
+HTML,BODY,Background
+	{cursor: url("http://downloads.totallyfreecursors.com/cursor_files/snowflake.ani"), 
+	url("http://downloads.totallyfreecursors.com/thumbnails/snowflake.gif"), auto;}
+#cursor
+	{
+		z-index:9;
+		visibility:visible;
+	}
