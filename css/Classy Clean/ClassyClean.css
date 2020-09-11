@@ -1,0 +1,114 @@
+/* Under the hood stuff - Get rid of all this stupid shit and have a nice blank page to work with. */
+.logo_div { visibility: hidden; }
+.fpix_header { visibility: hidden; }
+.topad { visibility: hidden; }
+.fpix_asl_table { visibility: hidden; }
+.profile_text { visibility: hidden; }
+.nc_profile { visibility: visible; }
+#left_container { visibility: hidden }
+#profilephoto { visibility: hidden; }
+#flash_close_butt { visibility: hidden; }
+#start_chat_but { visibility: hidden; }
+#fpix_wrapper { visibility: visible; }
+span {display:text !important;}
+body,html {color:black;}
+Background {
+    Top:0px;
+    Left:0px;
+    Height:100%;
+    Width:100%;
+    background-color:white;
+    position:absolute;
+    background-image:url('null');
+    opacity:1.0;
+    filter:alpha(opacity=100); /* For IE8 and earlier */
+    background-size:cover;
+    overflow:hidden;
+}
+#script {
+    width: 0;
+    height: 0;
+    border-top:100px solid #c0c0c0;
+    border-right: 100px solid transparent;
+    position:absolute;
+    top:0 ;
+    left:0 ;
+    margin-top: -1px;
+    padding:1px 1px 1px 1px;
+    opacity: 0.7; 
+    z-index: 500+;
+} 
+#inside,#inside:after {
+    top:-75px;
+    left:0;
+    position:absolute;
+    -moz-transform: rotate(-42deg);
+    -webkit-transform: rotate(-42deg);
+    -o-transform: rotate(-42deg);
+    -ms-transform: rotate(-42deg);
+    transform: rotate(-42deg);
+    color:black;
+    z-index: +501;
+    font-family:'Times new Roman';
+}
+#inside:after,#inside:before { content:"Script-ango"; }
+#inside:hover { text-decoration: underline; color:blue; }
+#title {
+    width:100%;
+    text-align:center;
+    height:40px;
+}
+#titletext {
+    font-family:'La Belle Aurore';
+    font-size:28px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    letter-spacing:0px;
+}
+#titletext:hover {
+    letter-spacing:10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-webkit-transition-property: all;
+	-webkit-transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.tsc_divider1_black { margin-top:-18px; }
+#undertone {
+    font-family:verdana;
+    font-size:9px;
+    color:black;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0%;
+}
+#undertone:before,#undertone:after { content:"''"; }
+#text {
+    width:80%;
+    height:80%;
+    text-align: center;
+    position:relative;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:5%;
+    overflow:auto;
+}
+p {
+    font-family:'Times New Roman';
+    font-size:12px;
+    color:black;
+    text-align:center;
+    text-align-last: justify;
+}

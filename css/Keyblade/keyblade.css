@@ -1,0 +1,237 @@
+/* Under the hood stuff - Get rid of all this stupid shit and have a nice blank page to work with. */
+.logo_div { visibility: hidden; }
+.fpix_header { visibility: hidden; }
+.topad { visibility: hidden; }
+.fpix_asl_table { visibility: hidden; }
+.profile_text { visibility: hidden; }
+.nc_profile { visibility: visible; }
+#left_container { visibility: hidden }
+#profilephoto { visibility: hidden; }
+#flash_close_butt { visibility: hidden; }
+#start_chat_but { visibility: hidden; }
+#fpix_wrapper { visibility: visible; }
+span {display:text !important;}
+
+@-webkit-keyframes fadeIn {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@-moz-keyframes fadeIn {
+    from { opacity:0; }
+    to { opacity:1; }
+}
+@keyframes fadeIn {
+    from { opacity:0; }
+    to { opacity:1;}
+}
+.fade-in {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    -webkit-animation-duration:0.5s;
+    -moz-animation-duration:0.5s;
+    animation-duration:0.5s;
+}
+.fade-in.one {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+@-webkit-keyframes fadeOut {
+    from { opacity:1; }
+    to { opacity:0; }
+}
+@-moz-keyframes fadeOut {
+    from { opacity:1; }
+    to { opacity:0; }
+}
+@keyframes fadeOut {
+    from { opacity:1; }
+    to { opacity:0; }
+}
+.fade-out {
+    opacity:1;
+    -webkit-animation:fadeOut ease-in 1;
+    -moz-animation:fadeOut ease-in 1;
+    animation:fadeOut ease-in 1;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+    -webkit-animation-duration:0.5s;
+    -moz-animation-duration:0.5s;
+    animation-duration:0.5s;
+}
+.fade-out.one {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+html, body { font-family: Verdana; font-size:11px; color:#000;}
+Background {
+    Top:0px;
+    Left:0px;
+    Height:100%;
+    Width:100%;
+    background-color:white;
+    position:absolute;
+    background-image:url('https://www.anonimg.com/img/946195d95ce3842cd00ca16c51ba8d8e.jpg');
+    opacity:1.0;
+    filter:alpha(opacity=100); /* For IE8 and earlier */
+    background-size:cover;
+    overflow:hidden;
+}
+#main_container {
+    width:600px;
+    height:400px;
+    position:relative;
+    border:1px dotted #c0c0c0;
+    margin-top:10%;
+    margin-left:2%;
+    -webkit-border-radius: 10px; /*Chrome*/
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 20px 1px #c0c0c0;
+    box-shadow: 0 2px 20px 1px #c0c0c0;
+    padding-right:7px;
+    padding-left:2px;
+}
+#title {
+    font-family: 'ubuntu condensed', sans-serif;
+    font-size:18px;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 2px 3px 3px #000;
+    padding:2px 2px 2px 2px;
+    text-indent: 25px;
+}
+#text {
+    padding:5px 5px 5px 5px
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:65%;
+    text-overflow:ellipsis;
+    font-size:9px;
+}
+#hr-contain {
+    position:relative;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    height:auto; } /*Penis licker hr code */
+#footer_main {
+    border:1px transparent solid;
+    Bottom:6%;
+    position:absolute;
+    right:0%;
+    width:100%;
+    height:25px;
+    overflow:none;
+}
+#connect {
+    margin-left:22%;
+    margin-top:2%;
+    -webkit-border-radius: 10px; /*Chrome*/
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 20px 1px #c0c0c0;
+    box-shadow: 0 2px 20px 1px #c0c0c0;
+    width:80px;
+    height:20px;
+    position:relative;
+    border:1px dotted #c0c0c0;
+    padding-right:4px;
+    padding-left:5px;
+    text-align: center;
+}
+#connect:after {
+    Content:"Lyend"; }
+#connect:hover { text-decoration: underline; }
+img.friend {
+    position:relative;
+    display:inline;
+    height:25px;
+    width:25px;
+    margin-left:5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    border:1px dashed #c0c0c0;
+}
+img.friend:hover {
+    height:50px;
+    width:50px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+#menu {
+    margin-left:2%;
+    margin-top:2%;
+    -webkit-border-radius: 10px; /*Chrome*/
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 20px 1px #c0c0c0;
+    box-shadow: 0 2px 20px 1px #c0c0c0;
+    width:600px;
+    height:50px;
+    position:relative;
+    border:1px dotted #c0c0c0;
+    padding-right:4px;
+    padding-left:5px;
+}
+#a {
+    position:relative;
+    display:inline-block;
+    height:100%;
+    width:20%;
+    text-align:center;
+    line-height: 420%; /*I couldn't help myself lol. */
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    border-right: 2px dotted #c0c0c0;
+    border-left: 2px dotted #c0c0c0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+#a:hover {
+    -webkit-transition: all 0.5s ease-in-out;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+	-webkit-transition-delay: initial;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+    color:skyblue;
+    text-decoration: underline;
+}
+.none { display:none;}
+.tt { page-break-after: always;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    text-indent: 25px; }

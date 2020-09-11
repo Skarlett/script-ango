@@ -1,0 +1,164 @@
+/* Credit to Lyend */
+/* Getting all this anonnying shit outta of the way */
+.logo_div { visibility: hidden; }
+.fpix_header { visibility: hidden; }
+.topad { visibility: hidden; }
+.fpix_asl_table { visibility: hidden; }
+.profile_text { visibility: hidden; }
+.nc_profile { visibility: visible; }
+#left_container { visibility: hidden }
+#profilephoto { visibility: hidden; }
+#flash_close_butt { visibility: hidden; }
+#start_chat_but { visibility: hidden; }
+#fpix_wrapper { visibility: visible; }
+    Background,body,html,p { color: black; font-size: 14px; font-family:monospace; }
+    Background {
+    background-color:#FAFCF9;
+    position:absolute;
+    left:0;
+    top:0;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width:100%;
+    height:100%;
+    z-index:-2;
+    overflow:hidden;
+}
+#head {
+    background-image:url("http://i.imgur.com/inzTKP8.jpg");
+    background-position:center 40%;
+    background-size:cover;
+    position:absolute;
+    left:0;
+    top:0;
+    height:250px;
+    width:100%;
+    border:1px black solid;
+    -webkit-box-shadow: 0 4px 15px 2px #000;
+    box-shadow: 0 4px 15px 2px #000;
+    z-index: -1;
+}
+.point-up {
+	width: 0; 
+	height: 0; 
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 100px solid #FAFCF9;
+    margin-top:-50%;
+    position: absolute;
+
+}
+.point-down {
+    width: 0; 
+	height: 0; 
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-top: 100px solid #FAFCF9;
+    top:100%;
+    position:absolute;
+}
+.border { border:1px black solid; }
+#nav {
+    position:absolute;
+    top:125px;
+    left:45px;
+    height:500px;
+    width:200px;
+    background-color:#FAFCF9;
+    -webkit-box-shadow: 0 4px 15px 2px #FF0000;
+    box-shadow: 0 0px 15px 2px #FF0000;
+}
+img.di {
+    margin-top:-30px;
+    margin-left:50px;
+    margin-right:auto;
+    position:relative;
+}
+.red {
+    background-color: #c00;
+    margin-top:12px;
+    margin-bottom:12px;
+    height:1px;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+}
+.title {
+    font-family: 'Metal Mania', cursive;
+    color:black;
+    font-size:24px;
+    text-align: center;
+    letter-spacing: 0px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position:relative;
+}
+.title:hover {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    letter-spacing: 5px;
+}
+#a {
+    margin-left:2%;
+    border-left:4px solid grey;
+    color:black;
+    padding-left:4px;
+    background-color:transparent;
+    height:auto;
+    width:80%;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin-bottom:5px;
+}
+#a:hover {
+    border-left-color: red;
+    background-color:#c0c0c0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+#contain {
+    position:absolute;
+    top:150px;
+    left:250px;
+    width:900px;
+    height:620px;
+    color:black;
+    overflow:none;
+    background-image:url("http://i.imgur.com/i3zMsFn.jpg");
+    background-repeat: no-repeat;
+    background-position:right bottom;
+}
+.n {display:none;}
+#issue {
+    position:absolute;
+    bottom:10%;
+    margin-top:5%;
+    left:3%;
+    width:200px;
+    height:50px;
+    z-index: +10000;
+    border:5px double #c0c0c0;
+    color:black;
+    font-size:10px;
+    text-align: center;
+    line-height: 500%;
+}
+#issue:after {
+    content:"Death Theme @ Script-ango";
+}
+#issue:hover {
+    border-color:black;
+    opacity: 0.8;
+}

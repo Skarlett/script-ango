@@ -1,0 +1,111 @@
+#body {
+    width: 350px;
+    height:200px;
+    position:relative;
+    margin-left: auto;
+    margin-right:auto;
+    border:1px black solid;
+    -webkit-box-shadow: 1px 1px 20px 1px #000;
+    box-shadow: 1px 1px 20px 1px #000;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top:5%;
+    padding: 5px 5px 5px 5px;
+    background-image:url("http://wallfoy.com/wp-content/uploads/2013/12/Cool-White-Background-91.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}       
+/* Default data hidden, Delete comments if you want to apply 
+        
+        
+.logo_div { visibility: hidden; }
+.fpix_header { visibility: hidden; }
+.topad { visibility: hidden; }
+.fpix_asl_table { visibility: hidden; }
+.profile_text { visibility: hidden; }
+.nc_profile { visibility: visible; }
+#left_container { visibility: hidden }
+#profilephoto { visibility: hidden; }
+#flash_close_butt { visibility: hidden; }
+#start_chat_but { visibility: hidden; }
+#fpix_wrapper { visibility: visible; }
+        
+End of Defualt data, Do not delete anything past this point */
+
+        
+        
+        
+        
+#photo {
+    width:50px;
+    height:50px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    position:relative;
+    margin: 5px 5px 5px 5px;
+    border:0.1em black dashed; 
+}
+#infor {
+    width:75%;
+    margin-left:5px;
+    margin-top: 5px;
+    border:1px black dotted;
+    height:30px;
+    line-height: 10px;
+    position:absolute;
+    top:5px;
+    left:75px;
+    font-size: 15px;
+    font-family: "Varanda" cursive;
+    text-align: right;
+    border-collapse:collapse;
+    padding:1px 1px 1px 1px;
+    overflow:hidden;
+}
+#getUser { color:black; }
+th.age:before,th.location:before,th.username:before {
+    content:"Age: ";
+    font-weight:bold;
+    font-size:16px;
+    page-break-after: always;
+}
+th.location:before { content: "Location: "; }
+th.username:before { content: "Username: "; }
+th { font-weight:normal;
+    text-align: justify;
+    border:1px black dotted;
+    padding:3px 3px 3px 3px;
+    overflow:hidden;}
+#issue {
+    bottom:0;
+    right:0;
+    position:absolute;
+    font-size:9px;
+    color:#c0c0c0;
+    opacity: 1;
+    font-family:"corbel";
+    padding-right:2px;
+    padding-bottom:2px;
+}
+#issue:after {
+    content:"Script-ango";
+}
+#issue:hover {
+    color:blue;
+    text-decoration: underline;
+}
+#textarea {
+    overflow:auto;
+    font-size:9px;
+    font-family:"Varanda";
+    color:black;
+    width:95%;
+    height:62%;
+    margin:2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+    border:1px black dotted;
+    padding-right:0px;
+    text-indent:20px;
+    position:absolute;
+}

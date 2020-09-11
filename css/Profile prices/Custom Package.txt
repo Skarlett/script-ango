@@ -1,0 +1,28 @@
+/**** Custom Profile Package ****/
+Message Lyend on Chatango (http://lyend.chatango.com/) -
+
+30-25 Div ID's
+5 Div classes
+5 Images (jpg, gif, png, etc)
+Javascript Menu (2-5 slides)
+5 inline-span elements
+Script-ango Footer/Header included and copyrighted
+
+Price: $7.50 (via paypal)
+
+/**** Extra special Profile package ****/
+
+100 Div ID's
+25  Div classes
+Unlimited Images (jpg, gif, png)
+Javascript menu (2-10)
+Unlimited inline-span elements
+Optional Script-ango footer/header
+Unlimited Media (youtube videos etc)
+Customizable after retrieval
+Javascript Fade Function (optional)
+Javascript Background movin function (optional)
+Javascript Clock (optional)
+Javascript Background attribute (optional)
+
+Price: $10.00 (via paypal)
